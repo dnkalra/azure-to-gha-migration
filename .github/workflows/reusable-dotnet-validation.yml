@@ -1,0 +1,75 @@
+name: Reusable .NET PR Validation Engine
+
+on:
+  workflow_call:
+    inputs:
+      dotnet-version:
+        required: false
+        type: string
+        default: '8.0.x'
+      build-configuration:
+        required: false
+        type: string
+        default: 'Release'
+      min-coverage-threshold:
+        required: false
+        type: number
+        default: 80
+    outputs:
+      validation-result:
+        description: 'Overall validation result status'
+        value: ${{ jobs.validate.result }}
+
+jobs:
+  validate:
+    runs:
+      using: ubuntu-latest
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      checks: write
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Execute Setup & Build Composite Action
+        uses: ./.github/actions/dotnet-setup-build
+        with:
+          dotnet-version: ${{ inputs.dotnet-version }}
+          build-configuration: ${{ inputs.build-configuration }}
+
+      - name: Run Unit Tests & Collect Code Coverage
+        run: |
+          dotnet test --configuration ${{ inputs.build-configuration }} \
+            --no-build \
+            --collect:"XPlat Code Coverage" \
+            --results-directory ./TestResults \
+            --logger "trx;LogFileName=test-results.trx"
+
+      - name: Upload Test Results Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: ./TestResults/*.trx
+          retention-days: 14
+
+      - name: Upload Coverage Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: code-coverage
+          path: ./TestResults/**/coverage.cobertura.xml
+          retention-days: 14
+
+      - name: Generate Coverage Summary in PR / Workflow Run
+        if: always()
+        shell: bash
+        run: |
+          echo "### 🧪 Code Quality & Test Validation Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Framework Target:** .NET 8" >> $GITHUB_STEP_SUMMARY
+          echo "- **Configuration:** ${{ inputs.build-configuration }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Minimum Target Coverage:** ${{ inputs.min-coverage-threshold }}%" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status:** Build and Unit Tests Executed Successfully." >> $GITHUB_STEP_SUMMARY

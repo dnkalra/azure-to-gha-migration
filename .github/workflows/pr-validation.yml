@@ -1,0 +1,29 @@
+name: Pull Request Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'SampleApp.sln'
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
+
+concurrency:
+  group: pr-val-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  call-reusable-validation:
+    uses: ./.github/workflows/reusable-dotnet-validation.yml
+    with:
+      dotnet-version: '8.0.x'
+      build-configuration: 'Release'
+      min-coverage-threshold: 80

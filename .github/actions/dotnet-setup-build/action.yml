@@ -1,0 +1,42 @@
+name: '.NET Setup, Restore, and Build'
+description: 'Standardized composite action to setup .NET 8, restore NuGet packages with caching, and build the solution.'
+
+inputs:
+  dotnet-version:
+    description: '.NET SDK version to install'
+    required: false
+    default: '8.0.x'
+  build-configuration:
+    description: 'Build configuration (Debug/Release)'
+    required: false
+    default: 'Release'
+
+outputs:
+  build-status:
+    description: 'Status of the build step'
+    value: ${{ steps.build.outcome }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: ${{ inputs.dotnet-version }}
+
+    - name: Cache NuGet Packages
+      uses: actions/cache@v4
+      with:
+        path: ~/.nuget/packages
+        key: ${{ runner.os }}-nuget-${{ hashFiles('**/*.csproj') }}
+        restore-keys: |
+          ${{ runner.os }}-nuget-
+
+    - name: Restore Dependencies
+      shell: bash
+      run: dotnet restore
+
+    - name: Build Solution
+      id: build
+      shell: bash
+      run: dotnet build --configuration ${{ inputs.build-configuration }} --no-restore
