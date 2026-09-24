@@ -8,7 +8,7 @@ on:
     paths:
       - 'src/**'
       - 'tests/**'
-      - 'SampleApp.sln'
+      - 'DotNet8Starter.sln'
       - '.github/workflows/**'
 
 permissions:

@@ -103,3 +103,7 @@ To validate the configuration locally:
 2. Run `dotnet restore`.
 3. Run `dotnet build --configuration Release --no-restore`.
 4. Run `dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage"`.
+5. Run dotnet run
+6. Open 
+      http://localhost:5000/
+      http://localhost:5000/health
