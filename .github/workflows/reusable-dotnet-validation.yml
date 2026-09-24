@@ -22,8 +22,6 @@ on:
 
 jobs:
   validate:
-    runs:
-      using: ubuntu-latest
     runs-on: ubuntu-latest
     permissions:
       contents: read
