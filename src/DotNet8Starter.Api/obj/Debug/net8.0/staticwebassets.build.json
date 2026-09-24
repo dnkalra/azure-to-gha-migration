@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ADz2GIzxGl//lyE5cgLJwyerlRIuuCmYqbAcZi6ajjM=",
+  "Source": "DotNet8Starter.Api",
+  "BasePath": "_content/DotNet8Starter.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

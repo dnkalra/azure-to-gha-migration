@@ -1,0 +1,74 @@
+D:\DN\code\src\DotNet8Starter.Api\bin\Debug\net8.0\appsettings.json
+D:\DN\code\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.exe
+D:\DN\code\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.deps.json
+D:\DN\code\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.runtimeconfig.json
+D:\DN\code\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.dll
+D:\DN\code\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.pdb
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.AssemblyInfoInputs.cache
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.AssemblyInfo.cs
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.csproj.CoreCompileInputs.cache
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.DotNet8Starter.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.DotNet8Starter.Api.props
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNet8Starter.Api.props
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNet8Starter.Api.props
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\scopedcss\bundle\DotNet8Starter.Api.styles.css
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.dll
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\refint\DotNet8Starter.Api.dll
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.pdb
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.genruntimeconfig.cache
+D:\DN\code\src\DotNet8Starter.Api\obj\Debug\net8.0\ref\DotNet8Starter.Api.dll
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\bin\Debug\net8.0\appsettings.json
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.exe
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.deps.json
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.runtimeconfig.json
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.dll
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.pdb
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.AssemblyInfoInputs.cache
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.AssemblyInfo.cs
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.csproj.CoreCompileInputs.cache
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.sourcelink.json
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.DotNet8Starter.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.DotNet8Starter.Api.props
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNet8Starter.Api.props
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNet8Starter.Api.props
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\scopedcss\bundle\DotNet8Starter.Api.styles.css
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.dll
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\refint\DotNet8Starter.Api.dll
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.pdb
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.genruntimeconfig.cache
+D:\DN\Cyncly\Misc Research\dotnet8-azuredevops-terraform\src\DotNet8Starter.Api\obj\Debug\net8.0\ref\DotNet8Starter.Api.dll
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\bin\Debug\net8.0\appsettings.json
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.exe
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.deps.json
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.runtimeconfig.json
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.dll
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\bin\Debug\net8.0\DotNet8Starter.Api.pdb
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.AssemblyInfoInputs.cache
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.AssemblyInfo.cs
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.csproj.CoreCompileInputs.cache
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.sourcelink.json
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.DotNet8Starter.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.DotNet8Starter.Api.props
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DotNet8Starter.Api.props
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DotNet8Starter.Api.props
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\scopedcss\bundle\DotNet8Starter.Api.styles.css
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.dll
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\refint\DotNet8Starter.Api.dll
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.pdb
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\DotNet8Starter.Api.genruntimeconfig.cache
+D:\DN\Cyncly\azure-to-gha-migration\src\DotNet8Starter.Api\obj\Debug\net8.0\ref\DotNet8Starter.Api.dll
